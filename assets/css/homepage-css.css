@@ -1,0 +1,8 @@
+.h2cus {
+    font-size: 14px;
+    padding: 0 20px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+}

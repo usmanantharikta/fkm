@@ -1,0 +1,27 @@
+.wrapper-list-conversation {
+    max-height: 550px;
+    height: auto;
+    bottom: 6px;
+}
+
+#et-header .list-message .list-message-box-body li a.link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.form-group .checkbox input[type="checkbox"].has-visited ~ span.text-choosen:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    width: 15px;
+    height: 15px;
+}
+
+.wrapper-list-conversation {
+    overflow: hidden;
+}
